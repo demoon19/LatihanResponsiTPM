@@ -107,7 +107,7 @@ class _RestaurantListPageState extends State<RestaurantListPage> {
             child: TextField(
               controller: _searchController,
               decoration: InputDecoration(
-                hintText: 'Search restaurants by name or city...',
+                hintText: 'Search restaurants by name...',
                 prefixIcon: const Icon(Icons.search),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
